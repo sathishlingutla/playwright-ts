@@ -1,4 +1,3 @@
-"use strict";
 function addition(a, b) {
     return a + b; // number ct- type inference will be applied as number
 }
