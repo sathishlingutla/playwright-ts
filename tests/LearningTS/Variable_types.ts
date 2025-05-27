@@ -30,11 +30,32 @@ console.log("checking the terminal")
 
 
 
-enum color{Red=5,Green,Black};
+enum color{Red=9,Green,Black};
 
 let ff:color = color.Black;
 console.log(ff);
 
+//Any type
+
+let randomValue:any = 10;
+randomValue = 'hello';
+randomValue = true;
+randomValue = null;
+
+let myvariable: any = 20;
+console.log(myvariable.name);
+myvariable();
+
+myvariable.toUpperCase();
 
 
+function hasName(obj:any): obj is { name : string}{
+ return !! obj && typeof obj === 'object' && 'name' in obj;
+}
+
+let myvariable_unknow: unknown = 20;
+console.log(myvariable_unknow);
+//myvariable_unknow();
+
+myvariable.toUpperCase();
 

@@ -1,0 +1,13 @@
+"use strict";
+let a;
+a = 10;
+a = true;
+let b = 20;
+let multiple;
+multiple = 20;
+multiple = true;
+multiple = "value";
+multiple.charAt;
+let anyType;
+anyType = 20;
+anyType = true;

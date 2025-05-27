@@ -13,7 +13,7 @@ function additions(a: number, b: number): number {
 
 addition(10, 9);
 
-function add(a: number, b: number): number {
+function add4(a: number, b: number): number {
    console.log(a+b);
     return a + b
     console.log("Welcome back")

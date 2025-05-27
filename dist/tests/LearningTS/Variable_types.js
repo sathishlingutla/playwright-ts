@@ -24,11 +24,26 @@ let c = color.black;
 console.log(c);
 console.log("checking the terminal");
 (function (color) {
-    color[color["Red"] = 5] = "Red";
-    color[color["Green"] = 6] = "Green";
-    color[color["Black"] = 7] = "Black";
+    color[color["Red"] = 9] = "Red";
+    color[color["Green"] = 10] = "Green";
+    color[color["Black"] = 11] = "Black";
 })(color || (color = {}));
 ;
 let ff = color.Black;
 console.log(ff);
-console.log("checking the terminal");
+//Any type
+let randomValue = 10;
+randomValue = 'hello';
+randomValue = true;
+randomValue = null;
+let myvariable = 20;
+console.log(myvariable.name);
+myvariable();
+myvariable.toUpperCase();
+function hasName(obj) {
+    return !!obj && typeof obj === 'object' && 'name' in obj;
+}
+let myvariable_unknow = 20;
+console.log(myvariable_unknow);
+//myvariable_unknow();
+myvariable.toUpperCase();

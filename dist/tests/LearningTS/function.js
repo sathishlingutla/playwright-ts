@@ -10,7 +10,7 @@ function additions(a, b) {
     return a + b;
 }
 addition(10, 9);
-function add(a, b) {
+function add4(a, b) {
     console.log(a + b);
     return a + b;
     console.log("Welcome back");
